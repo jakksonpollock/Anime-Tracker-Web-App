@@ -21,7 +21,7 @@ const SearchBar = (props) => {
   console.log("This animeName is", animeName);
   return (
     <div className={styles.container}>
-      <Navbar className={styles.nav}>
+      <Navbar style={{'justify-content': 'space-between'}}>
         <span className={styles.span} onClick={onClick}>
           Anime Tracker App
         </span>
