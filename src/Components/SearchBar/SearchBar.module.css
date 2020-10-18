@@ -10,7 +10,7 @@
   font-weight: 700;
 }
 
-.span:hover {
+.span:hover, a:hover {
   cursor: pointer;
 }
 
@@ -22,10 +22,6 @@
 
 .button:hover {
   background-color: RGB(229, 9, 20);
-}
-
-.searchBar {
-  padding-left: 40%;
 }
 
 @media only screen and (max-width: 600px) {
